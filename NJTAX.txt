@@ -1,0 +1,7 @@
+10 CLS
+20 PRINT "NJ Sales Tax Calculator"
+30 INPUT "The amount you want to figure out $"; A
+40 PRINT "That comes to $";A*1.07
+50 INPUT "Is that all? Y or N:";B
+60 IF B=Y THEN END
+70 IF B=N GOTO 20
